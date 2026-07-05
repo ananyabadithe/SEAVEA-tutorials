@@ -2,3 +2,62 @@
 .venv/
 venv/
 VirtualEnv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.out
+*.err
+*.tmp
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# FabSim / FabFlee generated outputs
+results/
+FabSim/results/
+FabSim/config_files/
+RUNS/
+SWEEP/
+out.csv
+agents.out.*
+links.out.*
+env.log
+env.yml
+
+# EasyVVUQ generated campaign files
+campaign.db
+*.db
+*.pickle
+*.sqlite
+*.sqlite3
+
+# Generated analysis outputs
+collation_result.csv
+sobols.yml
+plot_*.png
+raw*.png
+
+# Local machine-specific config
+machines_user.yml
+machines_FabFlee_user.yml
+
+# SSH / credentials / secrets
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+known_hosts
+.env
