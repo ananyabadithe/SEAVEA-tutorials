@@ -69,7 +69,7 @@ cd SEAVEA-tutorials
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install --upgrade pip setuptools wheel
+python -m pip install --upgrade pip wheel "setuptools<70"
 pip install -r requirements.txt
 python -m ipykernel install --user --name seavea-tutorial --display-name "SEAVEA Tutorial"
 ```
