@@ -1,3 +1,24 @@
+## Setup guides by operating system
+
+Use the guide for your operating system:
+
+- Linux: [docs/setup_linux.md](docs/setup_linux.md)
+- Windows using WSL2: [docs/setup_windows_wsl.md](docs/setup_windows_wsl.md)
+- macOS: [docs/setup_macos.md](docs/setup_macos.md)
+
+Windows users should use WSL2 Ubuntu for the full FabSim3/FLEE/FabFlee workflow. Native Windows PowerShell or Command Prompt is not currently recommended because the workflow uses Unix-style paths, Bash commands, and SSH-based localhost execution.
+
+For common setup issues, see:
+
+- Troubleshooting: [docs/troubleshooting.md](docs/troubleshooting.md)
+
+## Reproducibility and privacy
+
+Local virtual environments, generated results, EasyVVUQ campaign databases, logs, SSH credentials, and machine-specific configuration files are intentionally excluded from version control.
+
+See [PRIVACY_AND_REPRODUCIBILITY.md](PRIVACY_AND_REPRODUCIBILITY.md) for details.
+
+
 # SEAVEA-tutorials
 Repository containing tutorial materials for the VECMAtk components
 
