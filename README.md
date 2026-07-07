@@ -11,6 +11,7 @@ Windows users should use WSL2 Ubuntu for the full FabSim3/FLEE/FabFlee workflow.
 For common setup issues, see:
 
 - Troubleshooting: [docs/troubleshooting.md](docs/troubleshooting.md)
+- Validation log: [docs/validation_log.md](docs/validation_log.md)
 
 ## Reproducibility and privacy
 
