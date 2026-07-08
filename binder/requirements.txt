@@ -1,0 +1,11 @@
+jupyterlab
+notebook
+ipywidgets
+
+numpy
+pandas
+matplotlib
+scipy
+
+easyvvuq
+setuptools<70
