@@ -13,6 +13,16 @@ For common setup issues, see:
 - Troubleshooting: [docs/troubleshooting.md](docs/troubleshooting.md)
 - Validation log: [docs/validation_log.md](docs/validation_log.md)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ananyabadithe/SEAVEA-tutorials/master?urlpath=lab)
+
+## Run in Binder
+
+The tutorials can be launched in a temporary browser-based JupyterLab environment using Binder:
+
+[Launch Binder](https://mybinder.org/v2/gh/ananyabadithe/SEAVEA-tutorials/master?urlpath=lab)
+
+Binder is intended for lightweight tutorial exploration. For the full FabSim3/FLEE/FabFlee workflow, use the local setup guides.
+
 ## Reproducibility and privacy
 
 Local virtual environments, generated results, EasyVVUQ campaign databases, logs, SSH credentials, and machine-specific configuration files are intentionally excluded from version control.
