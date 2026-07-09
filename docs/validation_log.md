@@ -53,3 +53,8 @@ Observed package versions inside repo2docker:
 Notes:
 - This validates the lightweight Binder environment locally using repo2docker.
 - The full FabSim3/FLEE/FabFlee Mali2012 EasyVVUQ workflow remains validated locally outside Binder.
+
+Additional online Binder validation:
+- Launched Binder from the `binder-docker-setup` branch.
+- Ran `python scripts/binder_smoke_test.py` in the online Binder session.
+- Smoke test passed.
