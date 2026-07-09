@@ -58,3 +58,31 @@ Additional online Binder validation:
 - Launched Binder from the `binder-docker-setup` branch.
 - Ran `python scripts/binder_smoke_test.py` in the online Binder session.
 - Smoke test passed.
+
+## Docker validation
+
+Date: 2026-07-09
+
+Branch: binder-docker-setup
+
+Validation performed:
+- Built Docker image with `docker build -t seavealite .`
+- Confirmed image was available with `docker images`
+- Started JupyterLab with `docker run --rm -p 8888:8888 seavealite`
+- Ran `python scripts/binder_smoke_test.py` inside the Docker container
+
+Result:
+- Docker image `seavealite` built successfully.
+- JupyterLab launched successfully.
+- Smoke-test imports passed.
+
+Observed package versions inside Docker:
+- Python 3.10.20
+- NumPy 1.26.4
+- Pandas 2.3.3
+- Matplotlib 3.10.9
+- EasyVVUQ 1.3
+
+Notes:
+- This validates the local Docker tutorial environment.
+- The full FabSim3/FLEE/FabFlee Mali2012 workflow remains validated locally using the native setup.
