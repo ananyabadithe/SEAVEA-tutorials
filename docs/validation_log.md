@@ -24,36 +24,8 @@ Checks completed:
 The notebook setup script was tested from a clean virtual environment.
 
 Command tested:
-
 ```bash
 bash scripts/setup_notebook_env.sh
-
-## Binder / repo2docker validation
-
-Date: 2026-07-08
-
-Branch: binder-docker-setup
-
-Validation performed:
-- Built repository environment locally with `jupyter-repo2docker --no-run .`
-- Launched local repo2docker JupyterLab session with `jupyter-repo2docker .`
-- Ran `python scripts/binder_smoke_test.py` inside the repo2docker JupyterLab environment
-
-Result:
-- JupyterLab launched successfully.
-- Python imports succeeded for numpy, pandas, matplotlib, and easyvvuq.
-- Binder smoke test passed.
-
-Observed package versions inside repo2docker:
-- Python 3.10.19
-- NumPy 1.26.4
-- Pandas 2.3.3
-- Matplotlib 3.10.9
-- EasyVVUQ 1.3
-
-Notes:
-- This validates the lightweight Binder environment locally using repo2docker.
-- The full FabSim3/FLEE/FabFlee Mali2012 EasyVVUQ workflow remains validated locally outside Binder.
 
 ## Binder / repo2docker validation
 
